@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketing Souvenir Fulfillment</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Marketing Souvenir Fulfillment</h1>
+      <p>Agentic order processing &amp; human review</p>
+    </div>
+    <div class="actions">
+      <button id="ingestBtn" class="secondary">Load CSV Data</button>
+      <button id="refreshBtn" class="secondary">Refresh</button>
+      <button id="processAllBtn" class="primary">Process All</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="message" class="message hidden"></div>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="card">
+      <div class="section-header">
+        <div>
+          <h2>Orders</h2>
+          <p>Select an order to inspect its decision trace.</p>
+        </div>
+        <input id="search" type="search" placeholder="Search order or client..." />
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Order ID</th>
+              <th>Client</th>
+              <th>Type</th>
+              <th>Status</th>
+              <th>Risk</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="ordersBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card hidden" id="detailsCard">
+      <div class="section-header">
+        <div>
+          <h2 id="detailTitle">Order Details</h2>
+          <p id="detailSummary"></p>
+        </div>
+        <div id="overrideButtons" class="actions"></div>
+      </div>
+
+      <div class="detail-grid">
+        <div><span class="label">Client</span><strong id="detailClient"></strong></div>
+        <div><span class="label">Client Type</span><strong id="detailType"></strong></div>
+        <div><span class="label">Status</span><strong id="detailStatus"></strong></div>
+        <div><span class="label">Risk</span><strong id="detailRisk"></strong></div>
+        <div><span class="label">Total</span><strong id="detailTotal"></strong></div>
+      </div>
+
+      <h3>Order Lines</h3>
+      <div id="lines"></div>
+
+      <h3>Decision Trace / Audit Trail</h3>
+      <div id="trace" class="trace"></div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

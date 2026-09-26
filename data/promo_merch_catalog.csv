@@ -1,0 +1,25 @@
+sku,name,unit_price,in_stock
+PRM-201,Polo Shirt - Navy,12,40
+PRM-202,Polo Shirt - Charcoal,15,0
+PRM-203,Polo Shirt - White,18,25
+PRM-204,Polo Shirt - Royal Blue,20,60
+PRM-205,Baseball Cap - Adjustable,22,15
+PRM-206,Baseball Cap - Premium,25,8
+PRM-207,Retractable Lanyard - Clip,29.5,0
+PRM-208,Retractable Lanyard - Badge,34.75,32
+PRM-209,Ceramic Mug - White,39.99,75
+PRM-210,Ceramic Mug - Black,45,12
+PRM-211,Travel Tumbler - 500ml,49.5,50
+PRM-212,Travel Tumbler - 750ml,55.25,5
+PRM-213,Notebook - A5,65,40
+PRM-214,Notebook - A4,79.99,0
+PRM-215,Ballpoint Pen - Blue,12,25
+PRM-216,Ballpoint Pen - Black,15,60
+PRM-217,Canvas Tote Bag - Small,18,15
+PRM-218,Canvas Tote Bag - Large,20,8
+PRM-219,USB Flash Drive - 32GB,22,0
+PRM-220,USB Flash Drive - 64GB,25,32
+PRM-221,Desk Calendar - Standard,29.5,75
+PRM-222,Desk Organizer - Black,34.75,12
+PRM-223,Wireless Mouse - Standard,39.99,50
+PRM-224,Phone Stand - Adjustable,45,5

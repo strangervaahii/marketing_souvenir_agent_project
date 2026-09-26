@@ -1,0 +1,101 @@
+order_id,client_name,client_type,submitted_at,line_items_description
+ORD-7001,Tech Solutions,one-time order,2026-09-21T12:19:00Z,34x Custom Notebook - A5 Hardcover
+ORD-7002,Tech Solutions,one-time order,2026-09-27T04:43:00Z,"10x Stress Ball - Branded, 37x Retractable Lanyard - Badge"
+ORD-7003,Vijay,one-time order,2026-09-25T03:44:00Z,"44x USB Drive - 16GB, 5x Stress Ball - Branded"
+ORD-7004,Acme Corp,recurring account,2026-09-20T20:11:00Z,"2x Table Throw - Custom Print 6ft, 21x Branded Ballpoint Pen - 3pk"
+ORD-7005,Tech Solutions,one-time order,2026-09-21T03:19:00Z,"39x Retractable Lanyard - Clip, 10x Custom Umbrella - Compact"
+ORD-7006,Vijay,one-time order,2026-09-22T04:44:00Z,"13x Insulated Steel Water Bottle - 20oz, 30x Retractable Lanyard - Badge"
+ORD-7007,Acme Corp,recurring account,2026-09-23T10:02:00Z,"35x Custom Notebook - A5 Hardcover, 15x Retractable Lanyard - Badge"
+ORD-7008,Tech Solutions,one-time order,2026-09-22T17:56:00Z,"1x Backpack - Laptop 15in, 6x Branded Ballpoint Pen - 3pk"
+ORD-7009,Marketing Team,recurring account,2026-09-26T23:57:00Z,"7x Branded Ballpoint Pen - 3pk, 37x Table Throw - Custom Print 6ft, 38x Canvas Tote Bag - Natural"
+ORD-7010,Global Events,one-time order,2026-09-24T17:24:00Z,"3x Custom Umbrella - Compact, 34x Backdrop Frame Connector Set, 3x Backpack - Laptop 15in"
+ORD-7011,Global Events,one-time order,2026-09-24T05:13:00Z,"5x Zip-Up Hoodie - Heather Gray, 27x Travel Duffel Bag - 24in"
+ORD-7012,Vijay,one-time order,2026-09-23T17:49:00Z,"1x Stainless Tumbler - 16oz, 57x Zip-Up Hoodie - Heather Gray"
+ORD-7013,Tech Solutions,one-time order,2026-09-20T13:39:00Z,"47x Table Throw - Custom Print 6ft, 29x Baseball Cap - Adjustable"
+ORD-7014,Vijay,one-time order,2026-09-25T18:07:00Z,"4x Insulated Steel Water Bottle - 20oz, 2x Backpack - Laptop 15in, 34x Polo Shirt - Navy"
+ORD-7015,Marketing Team,recurring account,2026-09-26T11:35:00Z,10x Travel Duffel Bag - 24in
+ORD-7016,Tech Solutions,one-time order,2026-09-21T01:49:00Z,"58x Insulated Steel Water Bottle - 20oz, 8x Custom Umbrella - Compact"
+ORD-7017,Acme Corp,recurring account,2026-09-21T03:43:00Z,4x Stress Ball - Branded
+ORD-7018,Tech Solutions,one-time order,2026-09-22T18:50:00Z,"32x Backpack - Laptop 15in, 18x Retractable Lanyard - Badge"
+ORD-7019,Marketing Team,recurring account,2026-09-24T23:29:00Z,25x Retractable Banner Stand - 33in
+ORD-7020,Priya,one-time order,2026-09-20T23:07:00Z,23x Backdrop Stand Lighting Kit
+ORD-7021,Tech Solutions,one-time order,2026-09-26T10:46:00Z,"22x USB Drive - 16GB, 2x Retractable Lanyard - Clip"
+ORD-7022,Global Events,one-time order,2026-09-25T09:20:00Z,5x Stainless Tumbler - 16oz
+ORD-7023,Marketing Team,recurring account,2026-09-22T05:44:00Z,9x USB Drive - 16GB
+ORD-7024,Global Events,one-time order,2026-09-23T14:13:00Z,"1x Table Throw - Custom Print 6ft, 18x Custom Umbrella - Compact"
+ORD-7025,Global Events,one-time order,2026-09-21T00:58:00Z,"3x Stress Ball - Branded, 53x Canvas Tote Bag - Natural"
+ORD-7026,Tech Solutions,one-time order,2026-09-21T06:12:00Z,"59x Polo Shirt - Navy, 60x Retractable Banner Stand - 33in"
+ORD-7027,Priya,one-time order,2026-09-23T03:33:00Z,33x Retractable Lanyard - Badge
+ORD-7028,Marketing Team,recurring account,2026-09-23T22:07:00Z,"48x Custom Trade Show Backdrop - 8ft, 36x Retractable Lanyard - Badge"
+ORD-7029,Priya,one-time order,2026-09-21T11:38:00Z,"8x Baseball Cap - Adjustable, 49x Insulated Steel Water Bottle - 20oz"
+ORD-7030,Vijay,one-time order,2026-09-25T07:59:00Z,"3x Travel Duffel Bag - 24in, 4x Custom Notebook - A5 Hardcover"
+ORD-7031,Marketing Team,recurring account,2026-09-21T13:33:00Z,"39x Custom Trade Show Backdrop - 8ft, 2x Travel Duffel Bag - 24in"
+ORD-7032,Tech Solutions,one-time order,2026-09-26T02:20:00Z,"16x Custom Notebook - A5 Hardcover, 30x Insulated Steel Water Bottle - 20oz"
+ORD-7033,Global Events,one-time order,2026-09-22T04:27:00Z,"7x Polo Shirt - Navy, 14x Retractable Lanyard - Badge"
+ORD-7034,Tech Solutions,one-time order,2026-09-26T23:23:00Z,"32x Backdrop Stand Lighting Kit, 27x Stress Ball - Branded"
+ORD-7035,Marketing Team,recurring account,2026-09-24T10:02:00Z,1x Baseball Cap - Adjustable
+ORD-7036,Priya,one-time order,2026-09-22T08:40:00Z,"49x Retractable Lanyard - Clip, 3x Backdrop Frame Connector Set"
+ORD-7037,Global Events,one-time order,2026-09-21T13:51:00Z,7x Branded Ballpoint Pen - 3pk
+ORD-7038,Global Events,one-time order,2026-09-23T12:33:00Z,"8x Canvas Tote Bag - Natural, 4x Backpack - Laptop 15in, 7x Table Throw - Custom Print 6ft"
+ORD-7039,Acme Corp,recurring account,2026-09-20T18:46:00Z,"10x Custom Umbrella - Compact, 28x Stress Ball - Branded"
+ORD-7040,Vijay,one-time order,2026-09-20T20:27:00Z,"7x Backdrop Frame Connector Set, 28x Branded Ballpoint Pen - 3pk"
+ORD-7041,Tech Solutions,one-time order,2026-09-21T18:21:00Z,"4x Travel Duffel Bag - 24in, 40x Stress Ball - Branded"
+ORD-7042,Tech Solutions,one-time order,2026-09-23T18:30:00Z,"22x Travel Duffel Bag - 24in, 14x Insulated Steel Water Bottle - 20oz, 49x Backdrop Stand Lighting Kit"
+ORD-7043,Global Events,one-time order,2026-09-25T08:58:00Z,"43x Polo Shirt - White, 30x Insulated Steel Water Bottle - 20oz"
+ORD-7044,Global Events,one-time order,2026-09-23T21:05:00Z,"39x Travel Duffel Bag - 24in, 10x Canvas Tote Bag - Natural"
+ORD-7045,Priya,one-time order,2026-09-24T17:11:00Z,"4x Baseball Cap - Adjustable, 58x Polo Shirt - White, 52x Polo Shirt - Navy"
+ORD-7046,Global Events,one-time order,2026-09-23T04:22:00Z,"2x Baseball Cap - Adjustable, 31x Polo Shirt - White"
+ORD-7047,Vijay,one-time order,2026-09-25T10:05:00Z,"29x Zip-Up Hoodie - Heather Gray, 43x Travel Duffel Bag - 24in"
+ORD-7048,Priya,one-time order,2026-09-23T01:39:00Z,"56x Canvas Tote Bag - Natural, 45x Zip-Up Hoodie - Heather Gray"
+ORD-7049,Acme Corp,recurring account,2026-09-24T16:55:00Z,"40x Insulated Steel Water Bottle - 20oz, 2x Backpack - Laptop 15in"
+ORD-7050,Tech Solutions,one-time order,2026-09-26T12:30:00Z,23x Table Throw - Custom Print 6ft
+ORD-7051,Global Events,one-time order,2026-09-20T09:56:00Z,"60x Table Throw - Custom Print 6ft, 28x Backdrop Stand Lighting Kit"
+ORD-7052,Acme Corp,recurring account,2026-09-25T07:20:00Z,"55x Custom Umbrella - Compact, 25x Backdrop Stand Lighting Kit"
+ORD-7053,Global Events,one-time order,2026-09-21T19:11:00Z,15x Branded Ballpoint Pen - 3pk
+ORD-7054,Marketing Team,recurring account,2026-09-22T09:57:00Z,"32x Custom Umbrella - Compact, 14x Retractable Banner Stand - 33in"
+ORD-7055,Vijay,one-time order,2026-09-25T16:45:00Z,"20x Branded Ballpoint Pen - 3pk, 5x Table Throw - Custom Print 6ft"
+ORD-7056,Vijay,one-time order,2026-09-22T14:46:00Z,"32x Polo Shirt - Navy, 1x Backdrop Frame Connector Set"
+ORD-7057,Vijay,one-time order,2026-09-22T06:09:00Z,"8x Backpack - Laptop 15in, 18x Baseball Cap - Adjustable"
+ORD-7058,Marketing Team,recurring account,2026-09-24T20:38:00Z,"5x Retractable Lanyard - Clip, 28x Stainless Tumbler - 16oz"
+ORD-7059,Tech Solutions,one-time order,2026-09-27T04:17:00Z,13x Retractable Banner Stand - 33in
+ORD-7060,Vijay,one-time order,2026-09-21T13:09:00Z,"23x Retractable Banner Stand - 33in, 26x Polo Shirt - Navy, 23x Backdrop Frame Connector Set"
+ORD-7061,Global Events,one-time order,2026-09-27T02:07:00Z,"53x USB Drive - 16GB, 55x Zip-Up Hoodie - Heather Gray, 43x Baseball Cap - Adjustable"
+ORD-7062,Acme Corp,recurring account,2026-09-24T04:11:00Z,"24x Backpack - Laptop 15in, 29x Retractable Lanyard - Badge"
+ORD-7063,Vijay,one-time order,2026-09-23T11:46:00Z,"16x Branded Ballpoint Pen - 3pk, 58x Stainless Tumbler - 16oz"
+ORD-7064,Marketing Team,recurring account,2026-09-25T21:44:00Z,17x Table Throw - Custom Print 6ft
+ORD-7065,Marketing Team,recurring account,2026-09-26T09:18:00Z,"1x Canvas Tote Bag - Natural, 39x USB Drive - 16GB, 45x Zip-Up Hoodie - Heather Gray"
+ORD-7066,Acme Corp,recurring account,2026-09-22T12:55:00Z,"24x Stress Ball - Branded, 33x Branded Ballpoint Pen - 3pk"
+ORD-7067,Acme Corp,recurring account,2026-09-25T20:33:00Z,36x Stress Ball - Branded
+ORD-7068,Acme Corp,recurring account,2026-09-23T18:52:00Z,"5x Travel Duffel Bag - 24in, 5x Custom Trade Show Backdrop - 8ft"
+ORD-7069,Vijay,one-time order,2026-09-21T12:20:00Z,"11x Baseball Cap - Adjustable, 30x Custom Notebook - A5 Hardcover"
+ORD-7070,Vijay,one-time order,2026-09-24T21:45:00Z,"8x Canvas Tote Bag - Natural, 5x USB Drive - 16GB"
+ORD-7071,Global Events,one-time order,2026-09-23T19:18:00Z,34x USB Drive - 16GB
+ORD-7072,Vijay,one-time order,2026-09-25T05:25:00Z,"55x Retractable Lanyard - Clip, 26x Stress Ball - Branded, 57x Backdrop Stand Lighting Kit"
+ORD-7073,Acme Corp,recurring account,2026-09-22T07:47:00Z,"2x Polo Shirt - Navy, 5x Custom Trade Show Backdrop - 8ft"
+ORD-7074,Marketing Team,recurring account,2026-09-25T16:39:00Z,52x Polo Shirt - White
+ORD-7075,Acme Corp,recurring account,2026-09-23T00:04:00Z,32x Insulated Steel Water Bottle - 20oz
+ORD-7076,Acme Corp,recurring account,2026-09-27T02:49:00Z,"7x USB Drive - 16GB, 3x Retractable Banner Stand - 33in, 11x Table Throw - Custom Print 6ft"
+ORD-7077,Tech Solutions,one-time order,2026-09-25T06:18:00Z,"19x Insulated Steel Water Bottle - 20oz, 26x Zip-Up Hoodie - Heather Gray, 8x Retractable Lanyard - Clip"
+ORD-7078,Tech Solutions,one-time order,2026-09-23T09:55:00Z,"60x Custom Notebook - A5 Hardcover, 10x Polo Shirt - White"
+ORD-7079,Marketing Team,recurring account,2026-09-23T12:17:00Z,26x Stainless Tumbler - 16oz
+ORD-7080,Priya,one-time order,2026-09-23T15:02:00Z,"21x Backdrop Stand Lighting Kit, 6x Canvas Tote Bag - Natural, 23x Retractable Lanyard - Badge"
+ORD-7081,Tech Solutions,one-time order,2026-09-20T23:08:00Z,"20x Stress Ball - Branded, 57x Polo Shirt - Navy, 27x Zip-Up Hoodie - Heather Gray"
+ORD-7082,Priya,one-time order,2026-09-25T07:58:00Z,"11x Custom Trade Show Backdrop - 8ft, 14x Canvas Tote Bag - Natural"
+ORD-7083,Tech Solutions,one-time order,2026-09-22T21:41:00Z,"39x Polo Shirt - White, 1x Custom Trade Show Backdrop - 8ft"
+ORD-7084,Vijay,one-time order,2026-09-25T17:16:00Z,"46x Retractable Lanyard - Clip, 23x Baseball Cap - Adjustable"
+ORD-7085,Priya,one-time order,2026-09-24T05:08:00Z,"46x Baseball Cap - Adjustable, 12x Custom Umbrella - Compact"
+ORD-7086,Marketing Team,recurring account,2026-09-25T20:35:00Z,"48x Polo Shirt - White, 44x Insulated Steel Water Bottle - 20oz"
+ORD-7087,Acme Corp,recurring account,2026-09-25T00:30:00Z,"8x Stress Ball - Branded, 4x Custom Umbrella - Compact"
+ORD-7088,Vijay,one-time order,2026-09-24T02:59:00Z,"30x Canvas Tote Bag - Natural, 46x Custom Umbrella - Compact"
+ORD-7089,Vijay,one-time order,2026-09-24T20:52:00Z,"8x Zip-Up Hoodie - Heather Gray, 7x Retractable Lanyard - Clip, 40x Travel Duffel Bag - 24in"
+ORD-7090,Tech Solutions,one-time order,2026-09-25T21:34:00Z,22x Branded Ballpoint Pen - 3pk
+ORD-7091,Marketing Team,recurring account,2026-09-22T22:27:00Z,30x Retractable Lanyard - Badge
+ORD-7092,Tech Solutions,one-time order,2026-09-23T18:06:00Z,35x Retractable Lanyard - Clip
+ORD-7093,Vijay,one-time order,2026-09-22T00:05:00Z,21x Polo Shirt - Navy
+ORD-7094,Priya,one-time order,2026-09-26T00:13:00Z,"32x Retractable Banner Stand - 33in, 7x Stainless Tumbler - 16oz"
+ORD-7095,Marketing Team,recurring account,2026-09-20T10:53:00Z,38x Zip-Up Hoodie - Heather Gray
+ORD-7096,Global Events,one-time order,2026-09-21T13:27:00Z,"21x Stress Ball - Branded, 18x Stainless Tumbler - 16oz, 22x Retractable Lanyard - Badge"
+ORD-7097,Priya,one-time order,2026-09-20T21:43:00Z,"30x Backdrop Frame Connector Set, 30x Retractable Banner Stand - 33in"
+ORD-7098,Marketing Team,recurring account,2026-09-21T21:40:00Z,"37x Insulated Steel Water Bottle - 20oz, 38x Backpack - Laptop 15in"
+ORD-7099,Tech Solutions,one-time order,2026-09-20T17:26:00Z,19x USB Drive - 16GB
+ORD-7100,Marketing Team,recurring account,2026-09-24T12:14:00Z,"20x Baseball Cap - Adjustable, 34x Retractable Lanyard - Badge"
