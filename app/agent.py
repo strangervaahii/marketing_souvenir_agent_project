@@ -211,14 +211,42 @@ def run_agent(db: Session, order: Order) -> OrderDecision:
     log_event(db, order.order_id, "POLICY_DECISION", policy_action)
 
     # Critical safety rule: only PRIMARY_FULFILLMENT can be automatically dispatched.
+    # Execute autonomous fulfillment actions for low-risk orders.
     if auto_dispatch:
         for line in line_decisions:
-            result = tools.dispatch(line.sku, line.quantity, "PRIMARY")
-            actions.append(result)
-            log_event(db, order.order_id, "DISPATCH", result)
+
+            if line.decision == "PRIMARY_FULFILLMENT":
+                result = tools.dispatch(
+                    line.sku,
+                    line.quantity,
+                    "PRIMARY",
+                )
+
+                actions.append(result)
+                log_event(
+                    db,
+                    order.order_id,
+                    "DISPATCH",
+                    result,
+                )
+
+            elif line.decision == "ALTERNATE_REROUTE":
+                result = tools.reroute(
+                    line.sku,
+                    line.quantity,
+                )
+
+                actions.append(result)
+                log_event(
+                    db,
+                    order.order_id,
+                    "ALTERNATE_REROUTE",
+                    result,
+                )
 
         order.status = "DISPATCHED"
-        summary = "Low-risk order automatically dispatched from primary warehouse."
+        summary = "Low-risk order automatically fulfilled using primary and/or alternate warehouse routing."
+
     else:
         order.status = "PENDING_REVIEW"
         summary = f"Human review required: {policy_reason}"

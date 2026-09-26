@@ -65,3 +65,31 @@ class FulfillmentTools:
             "quantity": quantity,
             "warehouse": warehouse,
         }
+
+    def reroute(self, sku: str, quantity: int) -> dict:
+        """Reroute fulfillment to the alternate warehouse."""
+        if quantity <= 0:
+            raise ValueError("Reroute quantity must be positive.")
+
+        item = self.db.scalar(
+            select(Inventory).where(
+                Inventory.sku == sku,
+                Inventory.warehouse == "ALTERNATE",
+            )
+        )
+
+        if item is None or max(0, item.stock) < quantity:
+            raise ValueError(
+                f"Cannot reroute {quantity} of {sku} from ALTERNATE."
+            )
+
+        item.stock -= quantity
+        self.db.commit()
+
+        return {
+            "action": "ALTERNATE_REROUTE",
+            "sku": sku,
+            "quantity": quantity,
+            "warehouse": "ALTERNATE",
+            "reason": "Primary warehouse was insufficient; fulfillment rerouted to alternate warehouse.",
+        }

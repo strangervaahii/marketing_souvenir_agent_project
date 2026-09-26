@@ -25,10 +25,9 @@ def evaluate_order(
         if line.reconciliation_confidence < settings.min_reconciliation_confidence:
             reasons.append(f"low reconciliation confidence for '{line.raw_text}'")
 
-        if line.decision != "PRIMARY_FULFILLMENT":
+        if line.decision not in {"PRIMARY_FULFILLMENT", "ALTERNATE_REROUTE"}:
             reasons.append(
-                f"line '{line.raw_text}' requires "
-                f"{line.decision.lower().replace('_', ' ')}"
+                f"line '{line.raw_text}' requires {line.decision.lower().replace('_', ' ')}"
             )
 
     if reasons:
